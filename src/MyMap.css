@@ -1,0 +1,36 @@
+.map {
+  height: 500px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 16px;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+}
+.map.MapContainer {
+  height: 100%;
+}
+.info_flag img {
+  width: 100px;
+  border-radius: 5px;
+}
+.info_flag {
+  height: 88px;
+  width: 100px;
+  background-size: cover;
+  border-radius: 8px;
+}
+.info_container {
+  width: 150px;
+}
+.info_name {
+  color: #555;
+  font-size: 20px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.info_cases,
+.info_recover,
+.info_death {
+  font-size: 16px;
+  margin-top: 6px;
+}

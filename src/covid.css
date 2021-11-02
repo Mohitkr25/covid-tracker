@@ -1,0 +1,27 @@
+.app {
+  background-color: rgb(250, 237, 237);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.app_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.app_left {
+  flex: 0.8;
+}
+.app_stats {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+}
+.app__graph {
+  flex-grow: 1;
+}
